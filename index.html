@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Sonakshi Prasad — Data Science student, artist, and creative organiser.">
+  <title>Sonakshi Prasad — Data meets art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Sonakshi Prasad home">SP<span>✳</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Selected work</a>
+      <a href="#creative">Creative practice</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-contact" href="#contact">Say hello <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-topline"><span class="eyebrow">PORTFOLIO / 2026</span><span class="availability"><i></i> Curious by nature</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow intro-label">HELLO, I'M SONAKSHI</p>
+          <h1>Data-minded.<br><em>Art-hearted.</em></h1>
+          <p class="hero-description">I’m a Data Science student who loves finding patterns in data and making things that people can feel, see, and remember.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore my work <span>↘</span></a>
+            <a class="text-link" href="#about">A little about me <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative collage representing data and art">
+          <div class="art-paper paper-back"></div>
+          <div class="art-paper paper-front">
+            <div class="paper-meta"><span>FIG. 01</span><span>IN PROGRESS</span></div>
+            <div class="sun-shape"></div>
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="paper-scribble">make<br>meaning.</div>
+            <div class="paper-bottom"><span>curiosity → creation</span><span>✳</span></div>
+          </div>
+          <div class="floating-note note-top">a little logic</div>
+          <div class="floating-note note-bottom">a lot of imagination ↗</div>
+          <span class="hero-star star-one">✳</span><span class="hero-star star-two">✴</span>
+        </div>
+      </div>
+      <div class="hero-footer"><span>MUMBAI, INDIA</span><span>ANALYSIS × VISUAL STORYTELLING</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="about section-wrap section-pad" id="about">
+      <div class="section-heading"><span class="eyebrow">01 / THE PERSON</span><span class="section-index">BEYOND THE BULLET POINTS</span></div>
+      <div class="about-grid">
+        <h2>One brain.<br><em>Many tabs open.</em></h2>
+        <div class="about-text">
+          <p class="lead">I’m Sonakshi Prasad, a Data Science student at NMIMS, Mumbai, with one foot in analytical problem-solving and the other in the creative world.</p>
+          <p>I enjoy working with data, exploring how systems behave, and turning complex information into something clear. Outside the screen, I’m drawn to painting, art and craft, visual communication, and the energy of bringing an idea to life with a team.</p>
+          <p>I like being organised, staying open to conversations, and making sure the details get the attention they deserve. For me, creativity and analysis aren’t opposites — they’re two ways of making sense of the world.</p>
+          <div class="about-signoff">Currently learning, making & figuring it out <span>✳</span></div>
+        </div>
+      </div>
+      <div class="fact-strip">
+        <div><span class="fact-number">01</span><span>Think in patterns</span></div>
+        <div><span class="fact-number">02</span><span>Make things by hand</span></div>
+        <div><span class="fact-number">03</span><span>Build things together</span></div>
+      </div>
+    </section>
+
+    <section class="work section-wrap section-pad" id="work">
+      <div class="section-heading"><span class="eyebrow">02 / SELECTED WORK</span><span class="section-index">A MIX OF DATA, CODE & IDEAS</span></div>
+      <div class="section-title-row"><h2>Projects with<br><em>a point of view.</em></h2><p class="section-intro">A few projects that show how I approach questions: explore the problem, work through the details, and communicate what matters.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual metro-visual">
+            <div class="visual-label">DATA / RESEARCH</div>
+            <div class="metro-chart" aria-hidden="true"><span style="height:32%"></span><span style="height:47%"></span><span style="height:41%"></span><span style="height:68%"></span><span style="height:55%"></span><span style="height:81%"></span><span style="height:62%"></span><span style="height:94%"></span><span style="height:73%"></span><span style="height:86%"></span><span style="height:66%"></span><span style="height:100%"></span></div>
+            <div class="chart-axis"><span>ARRIVALS</span><span>TIME SERIES ↗</span></div>
+            <span class="visual-stamp">01</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>01 — STATISTICAL MODELLING</span><span>PYTHON</span></div>
+            <h3>Passenger Arrival Modelling</h3>
+            <p>Explored passenger arrival patterns across Mumbai Metro Lines 2A and 7 using a Poisson-process approach, data analysis, visualisation, and statistical testing.</p>
+            <div class="tag-list"><span>Poisson process</span><span>Data visualisation</span><span>Hypothesis testing</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual crop-visual">
+            <div class="visual-label">AI / AGRICULTURE</div>
+            <div class="crop-sun"></div><div class="crop-field field-one"></div><div class="crop-field field-two"></div><div class="crop-field field-three"></div>
+            <span class="crop-caption">GROW WITH<br>INSIGHT.</span><span class="visual-stamp">02</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>02 — MACHINE LEARNING</span><span>AI / ML</span></div>
+            <h3>Crop Recommendation & Irrigation Optimisation</h3>
+            <p>A project concept exploring how machine learning can support crop recommendations and smarter irrigation decisions, using an ANN-based approach.</p>
+            <div class="tag-list"><span>TensorFlow / Keras</span><span>ANN</span><span>Data-driven decisions</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual health-visual">
+            <div class="visual-label">WEB / VISUALISATION</div>
+            <div class="dashboard-window">
+              <div class="dashboard-top"><i></i><i></i><i></i><span>health overview</span></div>
+              <div class="dashboard-body"><div class="dashboard-side"></div><div class="dashboard-main"><div class="dashboard-line"></div><div class="dashboard-cards"><i></i><i></i><i></i></div><div class="dashboard-graph"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div></div></div>
+            </div>
+            <span class="visual-stamp">03</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>03 — FRONT-END DEVELOPMENT</span><span>WEB</span></div>
+            <h3>Smart Health Risk Dashboard</h3>
+            <p>A web dashboard concept focused on presenting health-risk information in a clear, accessible visual format using front-end web technologies and charts.</p>
+            <div class="tag-list"><span>HTML / CSS / JS</span><span>Chart.js</span><span>UI design</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="small-note">Project descriptions summarise work and concepts I’ve explored; detailed reports, demos and repositories can be added when available.</p>
+    </section>
+
+    <section class="creative section-wrap section-pad" id="creative">
+      <div class="section-heading"><span class="eyebrow">03 / THE CREATIVE SIDE</span><span class="section-index">MADE WITH HANDS, HEART & A PLAN</span></div>
+      <div class="creative-intro"><h2>Not just pixels.<br><em>Sometimes paint.</em></h2><p>Art is where I get to experiment, get messy, and make something tangible. I enjoy the whole process — from the first idea to the final detail.</p></div>
+      <div class="creative-grid">
+        <article class="creative-card art-card">
+          <div class="creative-image paint-image"><div class="paint-swatch swatch-a"></div><div class="paint-swatch swatch-b"></div><div class="paint-swatch swatch-c"></div><div class="paint-swatch swatch-d"></div><span class="image-note">colour, texture, repeat.</span></div>
+          <div class="creative-card-copy"><span class="eyebrow">ART & MAKING</span><h3>Art that leaves the sketchbook</h3><p>Painting, canvas work, T-shirt painting, resin art, and textured art — exploring different materials and ways to express an idea.</p></div>
+        </article>
+        <article class="creative-card workshop-card">
+          <div class="creative-image workshop-image"><div class="workshop-circle circle-a"></div><div class="workshop-circle circle-b"></div><div class="workshop-circle circle-c"></div><div class="workshop-type">MAKE<br>IT YOURS.</div><span class="workshop-tag">WORKSHOPS / COMMUNITY</span></div>
+          <div class="creative-card-copy"><span class="eyebrow">WORKSHOPS & COMMUNITY</span><h3>Making creativity collective</h3><p>Conducted art workshops with a friend for corporate offices, birthdays, and community events, and independently planned and executed an art event for an NGO.</p></div>
+        </article>
+        <article class="creative-card leadership-card">
+          <div class="creative-image leadership-image"><div class="stage-frame"><span>IDEA</span><span>→</span><span>EXPERIENCE</span></div><div class="stage-spark">✳</div><div class="stage-caption">behind the scenes</div></div>
+          <div class="creative-card-copy"><span class="eyebrow">LEADERSHIP & EVENTS</span><h3>Ideas, people, execution</h3><p>Currently Head of In-House Creatives at 4C NMIMS, with creative leadership experience across SATTVA and Taqneeq. Interested in event concepts, visual identity, and turning plans into experiences.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-pad" id="skills">
+      <div class="section-heading"><span class="eyebrow">04 / MY TOOLKIT</span><span class="section-index">A WORK IN PROGRESS, ALWAYS</span></div>
+      <div class="skills-layout">
+        <h2>Things I bring<br><em>to the table.</em></h2>
+        <div class="skills-groups">
+          <div class="skill-group"><span class="skill-number">01</span><div><h3>Data & Development</h3><p>Python · SQL · Excel · Power BI · Tableau · NumPy · Matplotlib · Jupyter · HTML · CSS · JavaScript</p></div></div>
+          <div class="skill-group"><span class="skill-number">02</span><div><h3>Machine Learning</h3><p>Supervised learning · ANN · TensorFlow / Keras · Probability · Hypothesis testing · Simulation modelling</p></div></div>
+          <div class="skill-group"><span class="skill-number">03</span><div><h3>Creative Practice</h3><p>Painting · Art & craft · Graphic design · Visual communication · Creative concept development · Event set design</p></div></div>
+          <div class="skill-group"><span class="skill-number">04</span><div><h3>People & Process</h3><p>Team leadership · Event organisation · Workshop facilitation · Collaboration · Attention to detail</p></div></div>
+        </div>
+      </div>
+      <div class="interests-line"><span class="eyebrow">ALWAYS HAPPY TO TALK ABOUT</span><div class="interest-pills"><span>art supplies</span><span>good design</span><span>data stories</span><span>events</span><span>new ideas</span></div></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-top"><span class="eyebrow">05 / YOUR TURN</span><span class="section-index">HAVE AN IDEA? LET'S TALK.</span></div>
+      <h2>Something on<br>your <em>mind?</em></h2>
+      <p>For creative collaborations, project conversations, or just a good exchange of ideas — my inbox is open.</p>
+      <a class="email-link" href="mailto:sonakshinp2007@gmail.com">sonakshinp2007@gmail.com <span>↗</span></a>
+      <div class="contact-bottom"><span>SONAKSHI PRASAD © 2026</span><a href="#home">BACK TO TOP ↑</a><span>MADE WITH CURIOSITY ✳</span></div>
+    </section>
+  </main>
+</body>
+</html>
